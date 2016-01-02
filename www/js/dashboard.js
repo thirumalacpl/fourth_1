@@ -172,6 +172,8 @@ sessionStorage.setItem("edusalary_education_array",JSON.stringify(result[26]));
 sessionStorage.setItem("integrity_lifestyle_permanent_array",JSON.stringify(result[27]));
 sessionStorage.setItem("servant_education_array",JSON.stringify(result[28]));
 
+sessionStorage.setItem("educational_records_array",JSON.stringify(result[29]));
+
 // alert(region+'refresh new regionArray_array');
 $.mobile.loading().hide();
 $.mobile.changePage($('#supervisor_inprogress_list'), { transition: "none", changeHash: true, reverse: false });
@@ -240,7 +242,9 @@ sessionStorage.setItem("criminal_verification_array",JSON.stringify(result[23]))
 sessionStorage.setItem("edusalary_education_array",JSON.stringify(result[24]));
 sessionStorage.setItem("integrity_lifestyle_permanent_array",JSON.stringify(result[25]));
 sessionStorage.setItem("servant_education_array",JSON.stringify(result[26]));       
-sessionStorage.setItem("emp_verification_cumulative_array",JSON.stringify(result[27]));                                    
+sessionStorage.setItem("emp_verification_cumulative_array",JSON.stringify(result[27]));        
+
+sessionStorage.setItem("educational_records_array",JSON.stringify(result[28]));                            
 
 // alert(region+'refresh new regionArray_array');
 $.mobile.loading().hide();
@@ -313,6 +317,8 @@ sessionStorage.setItem("integrity_lifestyle_permanent_array",JSON.stringify(resu
 sessionStorage.setItem("servant_education_array",JSON.stringify(result[26]));  
 sessionStorage.setItem("emp_verification_cumulative_array",JSON.stringify(result[27]));   
 
+sessionStorage.setItem("educational_records_array",JSON.stringify(result[28]));
+
 // alert(region+'refresh new regionArray_array');
 $.mobile.loading().hide();
 $.mobile.changePage($('#supervisor_list_notveri'), { transition: "none", changeHash: true, reverse: false });
@@ -383,6 +389,8 @@ sessionStorage.setItem("edusalary_education_array",JSON.stringify(result[25]));
 sessionStorage.setItem("integrity_lifestyle_permanent_array",JSON.stringify(result[26]));
 sessionStorage.setItem("servant_education_array",JSON.stringify(result[27]));  
 sessionStorage.setItem("emp_verification_cumulative_array",JSON.stringify(result[28]));   
+
+sessionStorage.setItem("educational_records_array",JSON.stringify(result[29]));
 
 // alert(region+'refresh new regionArray_array');
 $.mobile.loading().hide();
